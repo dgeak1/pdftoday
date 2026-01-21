@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minutes of Meeting - Faculty Executive Council</title>
+    <style>
+        :root {
+            --paper-white: #ffffff;
+            --text-dark: #333;
+            --accent-blue: #1a5f7a;
+        }
+
+        body {
+            background-color: #f0f2f5;
+            font-family: 'Times New Roman', Times, serif;
+            color: var(--text-dark);
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .paper {
+            background: var(--paper-white);
+            width: 210mm;
+            min-height: 297mm;
+            padding: 25mm;
+            margin: 10px auto;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            box-sizing: border-box;
+            position: relative;
+        }
+
+        header {
+            text-align: center;
+            border-bottom: 2px solid var(--accent-blue);
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+        }
+
+        h1 { margin: 0; font-size: 20px; color: var(--accent-blue); text-transform: uppercase; }
+        .meta-info { margin-top: 10px; font-style: italic; display: flex; justify-content: space-between; font-size: 14px; }
+
+        section { margin-bottom: 20px; }
+        h2 { font-size: 16px; border-bottom: 1px solid #ccc; padding-bottom: 5px; color: var(--accent-blue); text-transform: uppercase; }
+
+        .attendance-list { font-weight: bold; margin-bottom: 5px; }
+        
+        p, li { line-height: 1.6; font-size: 15px; text-align: justify; }
+        ul { margin-top: 5px; }
+
+        .footer { margin-top: 60px; display: flex; justify-content: space-between; }
+        .sig-line { border-top: 1px solid #000; width: 200px; text-align: center; margin-top: 40px; }
+        .sig-line p { margin: 5px 0 0 0; font-weight: bold; font-size: 14px; }
+
+        .controls { margin-bottom: 20px; }
+        button {
+            padding: 10px 20px;
+            background: var(--accent-blue);
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-family: Arial, sans-serif;
+            font-weight: bold;
+        }
+
+        @media print {
+            body { background: none; padding: 0; }
+            .controls { display: none; }
+            .paper { box-shadow: none; margin: 0; width: 100%; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="controls">
+        <button onclick="window.print()">Download Minutes as PDF</button>
+    </div>
+
+    <div class="paper" id="minutes">
+        <header>
+            <h1>Minutes of the Faculty Executive Council Meeting</h1>
+            <div class="meta-info">
+                <span><strong>Date:</strong> January 21, 2026</span>
+                <span><strong>Time:</strong> 11:32 AM — 12:01 PM</span>
+            </div>
+        </header>
+
+        <section>
+            <h2>1. Call to Order</h2>
+            <p>The meeting was officially called to order by the President at <strong>11:32 AM</strong> to deliberate on pressing executive matters and welfare projects.</p>
+        </section>
+
+        <section>
+            <h2>2. Attendance</h2>
+            <p class="attendance-list">Executives in Attendance:</p>
+            <ul>
+                <li>The President</li>
+                <li>General Secretary</li>
+                <li>Financial Secretary</li>
+                <li>Sports Director</li>
+                <li>Social Director</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>3. Facility & Welfare Projects</h2>
+            <ul>
+                <li><strong>Toilet Renovation:</strong> Discussions were held regarding the renovation of the school toilets. The President stated that he would personally oversee the handling and execution of this project to ensure standard quality.</li>
+                <li><strong>Executive Branding:</strong> Plans for the procurement of executive banners and identity cards were presented. However, it was noted that there is currently no liquidity to fund these items due to ongoing administrative hurdles with the bank (Polaris Bank) regarding account opening.</li>
+                <li><strong>Data Collection:</strong> To expedite the production of ID cards once funds are cleared, all executives were urged to submit their official details and professional photographs to the General Secretary immediately.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>4. New Proposals & Financial Planning</h2>
+            <ul>
+                <li><strong>Executive Crew Caps:</strong> The President proposed the production of customized "Crew Caps" which will also be featured on the official banner. This proposal is to be further deliberated upon by the wider house.</li>
+                <li><strong>Cap Funding:</strong> It was reached by consensus that the financing for these caps will be handled on an individual basis by each executive.</li>
+                <li><strong>Emergency Contribution Fund:</strong> Following a consultation between the President and the Social Director, a proposal was made for a general contribution plan. This fund is intended to provide a financial cushion for impromptu liabilities and emergency executive expenses.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>5. Adjournment</h2>
+            <p>The meeting was adjourned at <strong>12:01 PM</strong>. The date for the follow-up meeting next week is to be determined and communicated via the official secretariat channel.</p>
+        </section>
+
+        <div class="footer">
+            <div class="sig-line">
+                <p>General Secretary</p>
+            </div>
+            <div class="sig-line">
+                <p>President</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
