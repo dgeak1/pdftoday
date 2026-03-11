@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minutes of Meeting - Faculty Executive Council</title>
+    <style>
+        :root {
+            --paper-white: #ffffff;
+            --text-dark: #2c3e50;
+            --accent-green: #004d26;
+        }
+
+        body {
+            background-color: #e4e7eb;
+            font-family: 'Georgia', serif;
+            color: var(--text-dark);
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .paper {
+            background: var(--paper-white);
+            width: 210mm;
+            min-height: 297mm;
+            padding: 25mm;
+            margin: 10px auto;
+            box-shadow: 0 0 15px rgba(0,0,0,0.15);
+            box-sizing: border-box;
+            position: relative;
+        }
+
+        header {
+            text-align: center;
+            border-bottom: 3px double var(--accent-green);
+            margin-bottom: 30px;
+            padding-bottom: 15px;
+        }
+
+        h1 { margin: 0; font-size: 22px; color: var(--accent-green); text-transform: uppercase; letter-spacing: 1px; }
+        .meta-info { margin-top: 15px; font-style: normal; display: flex; justify-content: space-between; font-size: 14px; border-top: 1px solid #eee; padding-top: 10px;}
+
+        section { margin-bottom: 25px; }
+        h2 { font-size: 17px; border-left: 4px solid var(--accent-green); padding-left: 10px; color: var(--accent-green); text-transform: uppercase; margin-bottom: 15px; }
+        
+        p, li { line-height: 1.8; font-size: 15px; text-align: justify; color: #333; }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 10px; }
+
+        .footer { margin-top: 80px; display: flex; justify-content: space-between; }
+        .sig-line { border-top: 1px solid #000; width: 220px; text-align: center; margin-top: 50px; }
+        .sig-line p { margin: 5px 0 0 0; font-weight: bold; font-size: 13px; text-transform: uppercase; }
+
+        .controls { margin-bottom: 20px; }
+        button {
+            padding: 12px 25px;
+            background: var(--accent-green);
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-family: sans-serif;
+            font-weight: bold;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        @media print {
+            body { background: none; padding: 0; }
+            .controls { display: none; }
+            .paper { box-shadow: none; margin: 0; width: 100%; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="controls">
+        <button onclick="window.print()">Download Minutes as PDF</button>
+    </div>
+
+    <div class="paper" id="minutes">
+        <header>
+            <h1>Minutes of the Faculty Executive Council Meeting</h1>
+            <div class="meta-info">
+                <span><strong>Date:</strong> March 11, 2026</span>
+                <span><strong>Session:</strong> 12:10 PM — 1:25 PM</span>
+            </div>
+        </header>
+
+        <section>
+            <h2>1. Opening and Commencement</h2>
+            <p>The executive meeting officially commenced at <strong>12:10 PM</strong>. To set a solemn tone for the deliberations, the <strong>Welfare Director</strong> led the council in an opening prayer, seeking guidance for the day's agenda.</p>
+        </section>
+
+        <section>
+            <h2>2. Executive Correspondence</h2>
+            <p>The President opened the floor by relaying a vital message from the faculty leadership. It was stated that the <strong>Dean of the Faculty</strong> has requested a formal meeting with the executive body. Given the urgency of the matters to be discussed, the President emphasized that this meeting must be facilitated and concluded within the current day.</p>
+        </section>
+
+        <section>
+            <h2>3. Project Updates: Sanitary Initiatives</h2>
+            <p>The council reviewed the progress of the <strong>Toilet Cleansing Project</strong>. The following observations were noted:</p>
+            <ul>
+                <li><strong>Administrative Delays:</strong> It was reported that internal politics within the lecturing sector of the faculty has temporarily hampered the swift execution of the project. Consequently, the initiative remains pending.</li>
+                <li><strong>Budgetary Adjustments:</strong> A minor miscalculation in the initial financial allocation was identified. However, the council was assured that corrective measures are being taken, and the project will proceed as a priority as soon as the logistics are cleared.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>4. Orientation Night & Departmental Synergy</h2>
+            <p>Extensive dialogue took place regarding the upcoming <strong>Orientation Night</strong>. The council explored strategies to ensure the event's success while maintaining financial sustainability:</p>
+            <ul>
+                <li><strong>Collaboration:</strong> It was proposed that various departments should merge their efforts. By working together "lightly" and sharing resources, the overall financial burden on individual executive members can be significantly reduced.</li>
+                <li><strong>Due Diligence:</strong> The President urged all members to conduct thorough investigations and verify facts before raising complaints or making official progress reports regarding their duties. This is intended to maintain harmony and avoid unnecessary misunderstandings within the house.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>5. Strategic Infrastructure Projects</h2>
+            <p>The President introduced two landmark projects aimed at modernizing the faculty building:</p>
+            <ul>
+                <li><strong>Connectivity & Power:</strong> Proposals were laid out for the procurement of a <strong>Starlink</strong> satellite system to provide high-speed internet and a <strong>Solar Power</strong> installation to ensure a steady energy supply.</li>
+                <li><strong>Internal Fundraising:</strong> The Vice President expressed deep support for these initiatives and suggested an internal fundraiser amongst the board members to kickstart the process.</li>
+                <li><strong>Sponsorship:</strong> It was clarified that while these are top-priority official projects, they will be largely supported by external sponsors and well-wishers.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>6. Facility Maintenance and SUG Relations</h2>
+            <ul>
+                <li><strong>Lab Refurbishing:</strong> Regarding the refurbishment of the laboratories, the President clarified that due to the high technical capacity and significant cost involved, this project would be handled directly by the school administration rather than the executive council.</li>
+                <li><strong>SUG Orientation:</strong> The Vice President reported on a meeting with the Vice Presidents of the SUG, noting their intention to organize a separate orientation program.</li>
+                <li><strong>Scheduling:</strong> The VP proposed a date for the executive orientation night. The President directed that the VPs hold a sub-meeting to finalize this date before presenting it to the general house for approval.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>7. Adjournment</h2>
+            <p>With no further matters to discuss, the meeting was brought to a close at <strong>1:25 PM</strong>.</p>
+        </section>
+
+        <div class="footer">
+            <div class="sig-line">
+                <p>General Secretary</p>
+            </div>
+            <div class="sig-line">
+                <p>President</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
