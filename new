@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detailed Minutes of Meeting - NACOS Executive Board</title>
+    <style>
+        :root {
+            --paper-white: #ffffff;
+            --text-dark: #333;
+            --accent-green: #006837;
+        }
+
+        body {
+            background-color: #f0f2f5;
+            font-family: 'Times New Roman', Times, serif;
+            color: var(--text-dark);
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .paper {
+            background: var(--paper-white);
+            width: 210mm;
+            min-height: 297mm;
+            padding: 25mm;
+            margin: 10px auto;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            box-sizing: border-box;
+            position: relative;
+        }
+
+        header {
+            text-align: center;
+            border-bottom: 2px solid var(--accent-green);
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+        }
+
+        h1 { margin: 0; font-size: 20px; color: var(--accent-green); text-transform: uppercase; }
+        .meta-info { margin-top: 10px; font-style: italic; display: flex; justify-content: space-between; font-size: 14px; }
+
+        section { margin-bottom: 25px; }
+        h2 { font-size: 16px; border-bottom: 1px solid #ccc; padding-bottom: 5px; color: var(--accent-green); text-transform: uppercase; }
+
+        .attendance-list { font-weight: bold; margin-bottom: 5px; }
+        
+        p, li { line-height: 1.6; font-size: 15px; text-align: justify; }
+        ul { margin-top: 5px; }
+        .highlight { font-weight: bold; color: #000; }
+
+        .role-box {
+            background: #f9f9f9;
+            border-left: 3px solid var(--accent-green);
+            padding: 10px 15px;
+            margin: 10px 0;
+            font-style: italic;
+        }
+
+        .footer { margin-top: 60px; display: flex; justify-content: space-between; }
+        .sig-line { border-top: 1px solid #000; width: 200px; text-align: center; margin-top: 40px; }
+        .sig-line p { margin: 5px 0 0 0; font-weight: bold; font-size: 14px; }
+
+        .controls { margin-bottom: 20px; }
+        button {
+            padding: 10px 20px;
+            background: var(--accent-green);
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-family: Arial, sans-serif;
+            font-weight: bold;
+        }
+
+        @media print {
+            body { background: none; padding: 0; }
+            .controls { display: none; }
+            .paper { box-shadow: none; margin: 0; width: 100%; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="controls">
+        <button onclick="window.print()">Download Detailed Minutes (PDF)</button>
+    </div>
+
+    <div class="paper" id="minutes">
+        <header>
+            <h1>Minutes of the Executive Board Emergency Meeting</h1>
+            <div class="meta-info">
+                <span><strong>Date:</strong> January 20, 2026</span>
+                <span><strong>Time:</strong> 02:05 PM — 03:03 PM</span>
+            </div>
+        </header>
+
+        <section>
+            <h2>1. Opening & Purpose of Meeting</h2>
+            <p>The meeting was convened at <strong>14:05 PM</strong> by the Co-Staff Adviser, <strong>Mr. Fasoro</strong>. He opened the floor by deliberating on the urgent necessity of the meeting, which was primarily called to address growing internal issues, lapses in communication, and procedural irregularities within the executive board.</p>
+        </section>
+
+        <section>
+            <h2>2. Attendance</h2>
+            <p class="attendance-list">The following members were present:</p>
+            <p>Co-Staff Adviser (Mr. Fasoro), President, Speaker, General Secretary, Welfare Director, Assistant General Secretary, PRO, Social Director, and Financial Secretary.</p>
+        </section>
+
+        <section>
+            <h2>3. Fresher Night & Proposed Innovations</h2>
+            <p>A significant portion of the meeting focused on the Social Director's proposal to feature <strong>DJ Chicken</strong> at the upcoming Fresher Night. The following concerns were raised:</p>
+            <ul>
+                <li><span class="highlight">Low Impact:</span> The board considered the choice of guest to be of low impact and potentially misaligned with the professional and academic values of the student body.</li>
+                <li><span class="highlight">Financial Classism:</span> Concerns were raised that the ticket pricing required to fund such an guest would be too high, effectively creating "classism" and excluding students from participating.</li>
+                <li><span class="highlight">Unauthorized Awards:</span> It was discovered that an award voting link had been released and students had begun paying. This was done without the knowledge of the Staff Adviser, his assistant, or the President.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>4. Discipline, Character, and Insubordination</h2>
+            <p>Mr. Fasoro addressed the conduct of the Social Director, specifically citing a phone conversation that was described as <strong>rude, unprofessional, and insubordinate</strong>. He emphasized that as executive leaders, character is a vital value. He noted that there are calm ways to approach issues rather than creating chaos. </p>
+            <p>The Social Director later pleaded formally, stating that no disrespect was intended toward the Staff Adviser and that his frustrations were directed toward the President during that specific call.</p>
+        </section>
+
+        <section>
+            <h2>5. Clarification of Executive Roles</h2>
+            <p>The Staff Adviser provided a breakdown of executive roles to ensure no future overlaps or confusion:</p>
+            <div class="role-box">
+                <p><strong>President:</strong> Final authority on ground; all events must have his consensus.</p>
+                <p><strong>General Secretary:</strong> Secretariat management and official documentation (it was noted with a touch of humor that the Gen Sec writing the cancellation letter was simply him doing his job).</p>
+                <p><strong>Staff Adviser/Dean:</strong> Final layers of validation and administrative approval.</p>
+            </div>
+            <p>He reiterated that the correct hierarchy for any event is: <strong>Internal Consensus &rarr; President's Approval &rarr; Staff Adviser's Review &rarr; Dean's Approval.</strong></p>
+        </section>
+
+        <section>
+            <h2>6. Rebuttals and Final Resolutions</h2>
+            <p>The President confirmed that he was not fully aware of the voting link or the specific event processes being circulated. The Speaker mediated, urging the Social Director to follow hierarchy and maintain transparency to avoid working in isolation. It was noted that the <strong>Sports Director</strong> had made a similar procedural error previously, for which he apologized peacefully. </p>
+            <p><strong>Resolution:</strong> The Staff Adviser demanded a formal <strong>Letter of Apology</strong> from the Social Director. The Financial Secretary concluded by pleading for peace and unity moving forward.</p>
+        </section>
+
+        <section>
+            <h2>7. Adjournment</h2>
+            <p>The meeting was adjourned at <strong>15:03 PM</strong>The board reached a consensus to prioritize transparency and collective action in all future faculty activities.</p>
+        </section>
+
+        <div class="footer">
+            <div class="sig-line">
+                <p>General Secretary</p>
+            </div>
+            <div class="sig-line">
+                <p>President</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
